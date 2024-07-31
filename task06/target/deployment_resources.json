@@ -1,0 +1,24 @@
+{
+  "audit_producer" : {
+    "name" : "audit_producer",
+    "lambda_path" : "C:\\Users\\mohammed_mujahid\\Desktop\\AWSAllTasks\\AWStask6\\task06",
+    "version" : "1.0.0",
+    "func_name" : "com.task06.AuditProducer",
+    "deployment_package" : "task06-1.0.0.jar",
+    "resource_type" : "lambda",
+    "runtime" : "java11",
+    "architectures" : [ "x86_64" ],
+    "iam_role_name" : "audit_producer-role",
+    "memory" : 1024,
+    "timeout" : 300,
+    "subnet_ids" : [ ],
+    "security_group_ids" : [ ],
+    "dependencies" : [ ],
+    "event_sources" : [ ],
+    "env_variables" : { },
+    "publish_version" : true,
+    "alias" : "${lambdas_alias_name}",
+    "logs_expiration" : "${logs_expiration}",
+    "snap_start" : "None"
+  }
+}
